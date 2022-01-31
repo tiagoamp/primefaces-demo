@@ -3,9 +3,9 @@ package mbean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
-@ManagedBean(name = "formularioBean")
+@ManagedBean(name = "pessoaBean")
 @ViewScoped
-public class FormularioBean {
+public class PessoaBean {
 	
 
 }
