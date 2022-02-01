@@ -49,7 +49,7 @@
 			<p:inputNumber id="input-salario" value="#{pessoaBean.pessoa.salario}" symbol="R$ " decimalSeparator="," thousandSeparator="." />
 			
 			<p:outputLabel for="input-nota" value="Nota" />
-			<p:spinner id="input-nota" value="#{pessoaBean.pessoa.nota}" min="0" max="10" />
+			<p:spinner id="input-nota" value="#{pessoaBean.pessoa.nota}" stepFactor="0.5" min="0" max="10" />
 			
 		</p:panelGrid>
 		
@@ -81,9 +81,6 @@
 		</p:column>
 		<p:column headerText="Salário">
 			<h:outputText value="#{p.salario}" />
-		</p:column>
-		<p:column headerText="Website">
-			<h:outputText value="#{p.website}" />
 		</p:column>
 		<p:column headerText="Nota">
 			<h:outputText value="#{p.nota}" />
