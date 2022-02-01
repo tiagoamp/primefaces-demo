@@ -1,4 +1,4 @@
-package mbean;
+package model;
 
 import java.util.Date;
 
