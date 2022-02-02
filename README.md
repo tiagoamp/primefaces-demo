@@ -1,3 +1,3 @@
 # primefaces-demo
 
-Projeto com implementação de Formulário usando PrimeFaces.
+Projeto com implementação de Página de Login.
